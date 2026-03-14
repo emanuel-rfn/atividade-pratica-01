@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    
+</head>
+<body>
+    <h1>CONTATO</h1>
+    <hr>
+    <br>
+    <form action="sucesso.html">
+        <fieldset>
+            <legend>Fale comigo</legend>
+            <p>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Ex: João Pereira Silva" required>
+            </p>
+            
+            <p>
+                <label for="e-mail">E-mail:</label><br>
+                <input type="email" name="e-mail" id="e-mail" placeholder="nome@exemplo.com" required>
+            </p>
+
+            <p>
+                <label for="motivo">Motivo do contato:</label><br>
+                <select name="motivo" id="motivo">
+                    <option value="selecione" disabled selected>Selecione</option>
+                    <option value="job">Proposta de emprego</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" name="assunto" id="assunto" required>
+            </p>
+
+            <p>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" rows="10" cols="45" placeholder=""></textarea>
+            </p>
+
+            <p>
+                <label for="telefone">Telefone:</label><br>
+                <input type="number" name="telefone" id="telefone" placeholder="(00) 00000-0000" required>
+            </p>
+
+            <p>
+                <label for="data">Data:</label><br>
+                <input type="date">
+            </p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+        <br>
+        <button><a href="index.html">Voltar para a página inicial</a></button>
+</body>
+</html>
